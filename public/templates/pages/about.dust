@@ -1,0 +1,22 @@
+{>"layouts/master" /}
+{<title}
+	About Car-Rental
+{/title}
+
+{<body}
+     <div class="row">
+      <div class="large-12 columns">
+        <h2>About Us</h2>
+        <p>
+				As the world's biggest car rental caring service, we provide cars at over 53,000 locations worldwide.
+				</p>
+				<p>
+				Why use Rentalcars.com?
+				<ul>
+				<li>&hearts; Free cancellations on most carings</li>
+				<li>&hearts; No hidden charges or credit card fees</li>
+				<li>&hearts; Trusted by over 4 Million Customers!</li>
+				</ul>
+				</p>
+    </div>
+{/body}

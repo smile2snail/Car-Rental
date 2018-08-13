@@ -1,0 +1,21 @@
+{>"layouts/master" /}
+
+{<body}
+
+  {#bannerImage}
+    <div>
+      <img src='https://www.adoptivemomlife.com/wp-content/uploads/2018/04/F08F0AAB-5617-4A4A-BE61-34A3D2D1CC0E.jpeg'>
+    </div>
+  {/bannerImage}
+
+  {#cars}
+    <div class='large-3 columns car end'>
+      <img src='{.cover}'>
+      <h4>{.title}</h4>
+      <p>{.truncText}...</p>
+      <div class='price'>Rent it for <span>${.price}</span></div>
+      <br>
+      <a href='/cars/details/{._id}' class='button small'>Car Details</a>
+    </div>
+  {/cars}
+{/body}

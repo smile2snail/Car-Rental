@@ -1,0 +1,214 @@
+ul, li {
+  list-style:none;
+  display: block;
+}
+
+.body{
+  width: 100%;
+}
+
+.top-bar, .top-bar-left, .menu {
+  width: 103%;
+}
+
+.menu {
+  margin:0px;
+  background-color: #000;
+  float: left;
+  margin-left: -40px;
+  padding-left: 40px;
+}
+
+.menu li a{
+  color: #fff;
+  font-weight: bold;
+}
+
+
+img{
+  width: 500px;
+  height: 230px;
+  border-style: groove;
+  border-color:#eee;
+  border-width: 15px;
+}
+
+
+#bannerImage{
+    padding-top:75px;
+    padding-bottom:50px;
+    margin-bottom: 20px;
+    text-align:center;
+    color:#f8f8f8;
+    background:url(http://static3.uk.businessinsider.com/image/580508b2dd0895d04b8b463f/19-companies-racing-to-put-self-driving-cars-on-the-road-by-2021.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#bannerImage{
+  width: 95%;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+#bannerContent{
+    position:relative;
+    padding-top:2%;
+    padding-bottom:2%;
+    margin-top:4%;
+    margin-bottom:4%;
+    background-color:rgba(0,0,0,0.7);
+    max-width:660px;
+}
+
+.car {
+  text-align: center;
+}
+
+.car h4{
+  display: block;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.price{
+  margin: 5px;
+  font-size: 18px;
+}
+
+.price span{
+  color: green;
+  background: #f4f4f4;
+  padding: 10px;
+  border:1px #ccc solid;
+  border-radius: 50%;
+}
+
+footer{
+  margin-top: 40px;
+  padding: 10px;
+  text-align: center;
+}
+
+h2 span{
+  font-size:18px;
+}
+
+#paypal{
+  float: right;
+  margin-right: 150px;
+}
+
+.small {
+  background-color: #3088FF;
+}
+
+
+ /*Shopping Cart Icon*/
+.icon-cart {
+  display: inline;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+.icon-cart .cart-line-1 {
+  width: 15%;
+  height: 7%;
+  position: absolute;
+  left: 8%;
+  top: 25%;
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -ms-transform: rotate(5deg);
+  transform: rotate(5deg);
+  background-color: #000;
+  border-bottom-left-radius: 35%;
+}
+
+.icon-cart .cart-line-2 {
+  width: 35%;
+  height: 7%;
+  position: absolute;
+  left: 6%;
+  top: 40%;
+  -webkit-transform: rotate(80deg);
+  -moz-transform: rotate(80deg);
+  -ms-transform: rotate(80deg);
+  transform: rotate(80deg);
+  background-color: #000;
+}
+
+.icon-cart .cart-line-2:before {
+  content: "";
+  width: 120%;
+  height: 100%;
+  position: absolute;
+  left: 45%;
+  top: -280%;
+  -webkit-transform: rotate(-80deg);
+  -moz-transform: rotate(-80deg);
+  -ms-transform: rotate(-80deg);
+  transform: rotate(-80deg);
+  background-color: inherit;
+}
+
+.icon-cart .cart-line-2:after {
+  content: "";
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  left: 59%;
+  top: -670%;
+  background-color: inherit;
+  -webkit-transform: rotate(40deg);
+  -moz-transform: rotate(40deg);
+  -ms-transform: rotate(40deg);
+  transform: rotate(40deg);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 25%;
+}
+
+.icon-cart .cart-line-3 {
+  width: 30%;
+  height: 7%;
+  position: absolute;
+  left: 33%;
+  top: 45%;
+  background-color: #000;
+}
+
+.icon-cart .cart-line-3:after {
+  content: "";
+  width: 124%;
+  height: 100%;
+  position: absolute;
+  top: -150%;
+  left: -5%;
+  background-color: inherit;
+}
+
+.icon-cart .cart-wheel {
+  width: 12%;
+  height: 12%;
+  background-color: #000;
+  border-radius: 100%;
+  position: absolute;
+  left: 28%;
+  bottom: 20%;
+}
+
+.icon-cart .cart-wheel:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: inherit;
+  border-radius: 100%;
+  position: absolute;
+  left: 200%;
+  bottom: 0;
+}
